@@ -25,7 +25,8 @@
         font-weight: 600;
       }
       .navbar-brand:hover {
-        color: red;
+        transform: translateY(-1px);
+
       }
 
       .fondo-inicio {
@@ -80,9 +81,9 @@
       }
 
       .btn:hover {
-        background: darkslategray;
-        box-shadow: 0 15px 5px rgba(255, 255, 255, 0.35);
+        background:darkslategray;
       }
+
       .tabla-horario h2 {
         text-align: center;
         font-weight: 600;
@@ -123,7 +124,7 @@
       .table {
         text-align: center;
       }
-      .pie {
+      .footer {
         padding: 20px;
         border-top: 1px solid #222222;
         font-size: 12px;
@@ -157,7 +158,7 @@
       <div class="row mt-3">
         <!-- mt-3 = margen arriba para separar del logo -->
         <div class="col">
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <nav class="navbar navbar-expand navbar-dark bg-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html"
                 >Volver a la web del club</a
@@ -260,36 +261,33 @@
           </p>
         </article>
       </section>
-      <section id="ubicacion" class="container my-5">
-        <div class="row">
-          <div class="col-4 d-flex flex-column gap-3">
-            <div class="caja-ubicacion">
-              <h2>¿Dónde estamos?</h2>
-              <p>Polideportivo El Plantinar<br />Sevilla (Sevilla)</p>
-              <p>
-                Zona de barrio, fácil acceso andando y en transporte público.
-              </p>
-            </div>
+      <section id="ubicacion" class="container-fluid">
+  <div class="row align-items-center">
+    
+    <div class="col-6 caja-ubicacion">
+      <h2>¿Dónde estamos?</h2>
+      <p>Polideportivo El Plantinar<br>Sevilla (Sevilla)</p>
+      <p>
+        Zona de barrio, fácil acceso andando y en transporte público.
+      </p>
+      <p>Teléfono: 666777666</p>
+      <p>Correo: bplantinar@correo.coma</p>
+      <p>Hacemos sesiones de sparring y entrenamientos especiales los sábados por la mañana.</p>
+    </div>
 
-            <div class="caja-ubicacion">
-              <h3>Datos de contacto</h3>
-              <p>Sábados: sesiones especiales y sparring.</p>
-              <p>telefono: 666777666</p>
-              <p>correo: bplantinar@correo.coma</p>
-            </div>
-          </div>
+    <div class="col-6 text-center">
+      <img
+        src="../img/ubicacion.png"
+        alt="Ubicación del Club Boxeo El Plantinar"
+        class="img-fluid ubicacion-img"
+      >
+    </div>
 
-          <div class="col-8">
-            <img
-              src="../img/ubicacion.png"
-              alt="Ubicación del Club Boxeo El Plantinar"
-              class="img-fluid ubicacion-img"
-            />
-          </div>
-        </div>
-      </section>
+  </div>
+</section>
+
     </main>
-    <footer class="pie">
+    <footer class="footer">
       <p>
         © 2024 Club Deportivo Atlético El Plantinar. Todos los derechos
         reservados.

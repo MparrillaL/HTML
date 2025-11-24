@@ -306,6 +306,7 @@ body {
   align-items: stretch;     
   min-height: 200px;
   min-width: 200px;
+  max-width: 450px;
 }
 .tablon-fotos figcaption{
   font-weight: 600;
